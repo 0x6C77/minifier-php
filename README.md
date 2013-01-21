@@ -8,10 +8,10 @@ A small PHP class that minifies website resources and reduces requests
 
 Usage
 ================
-$minifier = new PHPMinifier();
-$minifier->add_file('news.css', 'css');
-
-$js_files = array('extra.js', 'news.js');
-$minifier->add_file($js_files);
-
-$minifier->load();
+$minifier = new PHPMinifier();  
+$minifier->add_file('news.css', 'css');  
+  
+$js_files = array('extra.js', 'news.js');  
+$minifier->add_file($js_files);  
+  
+$minifier->load();  
