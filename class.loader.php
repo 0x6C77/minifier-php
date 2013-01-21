@@ -1,7 +1,10 @@
 <?php
 /*
+ * A small PHP class that minifies website resources and reduces requests
+ * 
+ *
  * -- MIT license -- 
- * Copyright (c) 2002 Douglas Crockford  (www.crockford.com)
+ * Copyright (c) 2013 Luke Ward
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of
  * this software and associated documentation files (the "Software"), to deal in

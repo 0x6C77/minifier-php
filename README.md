@@ -1,6 +1,6 @@
 PHP Minifier
 ================
-PHP class to load and minify javascript and CSS files
+A small PHP class that minifies website resources and reduces requests
 
 * Condense multiple JS or CSS files into single requests
 * Minify JS and CSS files on the fly
@@ -8,3 +8,10 @@ PHP class to load and minify javascript and CSS files
 
 Usage
 ================
+$minifier = new PHPMinifier();
+$minifier->add_file('news.css', 'css');
+
+$js_files = array('extra.js', 'news.js');
+$minifier->add_file($js_files);
+
+$minifier->load();
